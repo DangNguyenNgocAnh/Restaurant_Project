@@ -1,0 +1,28 @@
+.Contact{
+    background-color: black;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family:'Times New Roman', Times, serif;
+      color:#cda45e;
+  }
+ .Contact .header{
+    width: 100%;
+    height: 200px;
+  }
+.Contact .header .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+  }
+.Contact .header .content .lienhe-items{
+    width: calc(100%/3);
+    padding: 15px;   
+    right: 1000px;
+}
+.Contact .header .content .lienhe-items h3{
+    font-size: 20px;
+}
+.Contact .header .content .lienhe-items p{
+    font-size: 18px;
+}

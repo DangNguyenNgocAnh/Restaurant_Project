@@ -1,0 +1,77 @@
+.Introduce{
+  background-image: linear-gradient(0,rgba(0, 0, 0,0.5),rgba(69, 90, 13, 0.5) ),
+  url("C:/Demonstration/PolyReact2021/restaurant-project/src/asset/image/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Times New Roman', Times, serif;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+  }
+ .Introduce .title {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+.Introduce .title h2 {
+    font-size: 60px;
+    color:#cda45e;
+    text-align: left;
+  padding-left: 150px;
+  }
+  .header .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-top: 0px;
+  }
+  .header .content .text{
+    position: relative;
+    margin-top: 0;
+    width: calc(100%/2);
+    padding: 15px;
+    padding-top: 5px;
+    color: rgb(128, 177, 113);
+  }
+  .header .content .text .text-title{ 
+    font-size: 20px;
+    text-align: center;
+  }
+  .header .content .text .content{ 
+    font-size: 20px;
+  }
+  .header .content .text .menu{
+    background: none;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  .header .content .text a{
+    padding: 10px 10px;
+    background: #fbbc01;
+    color: rgba(0, 0, 0);
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .header .content .text a:hover{
+    background: transparent;
+    color: #fbbc01;
+    border: 2px  solid #fbbc01 ;
+  }
+  .header .content .image{
+    position: relative;
+    margin-top: 30px;
+    width: calc(100%/2);
+    padding: 15px;
+  }
+
+   .header .content .image img{
+    width: 100%;
+    border-radius: 10px;
+   }
+   
+  
